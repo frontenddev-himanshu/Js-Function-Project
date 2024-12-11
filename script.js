@@ -1,5 +1,5 @@
 
-function multiId(card, cImg, cName, cAge, cStudent) {
+function multiId(cImg, cName, cAge, cStudent) {
 
     //create div 
 
@@ -9,7 +9,6 @@ function multiId(card, cImg, cName, cAge, cStudent) {
 
     body.appendChild(newCard);
 
-    newCard.innerHTML = (card);
 
 
 
@@ -19,7 +18,7 @@ function multiId(card, cImg, cName, cAge, cStudent) {
 
     newCard.appendChild(newImg);
 
-    newImg.src = (cImg);
+    newImg.src = cImg;
 
 
     // create student name in card
@@ -28,7 +27,7 @@ function multiId(card, cImg, cName, cAge, cStudent) {
 
     newCard.appendChild(sName);
 
-    sName.innerText = (cName);
+    sName.innerText = cName;
 
 
 
@@ -38,7 +37,7 @@ function multiId(card, cImg, cName, cAge, cStudent) {
 
     newCard.appendChild(newCourse);
 
-    newCourse.innerHTML = (cAge);
+    newCourse.innerHTML = cAge;
 
 
 
@@ -48,7 +47,7 @@ function multiId(card, cImg, cName, cAge, cStudent) {
 
     newCard.appendChild(newSno);
 
-    newSno.innerText = (cStudent);
+    newSno.innerText = cStudent;
 
 
 
@@ -56,21 +55,21 @@ function multiId(card, cImg, cName, cAge, cStudent) {
 }
 
 
-//function call 
-// multiId(
-//     "",
-//     "https://img.freepik.com/free-photo/smiling-girl-holding-card-boards-standing_23-2147657377.jpg?ga=GA1.1.446802521.1715590962&semt=ais_hybrid",
-//     "Komal Roy",
-//     "MBA",
-//     "Student147863"
-// );
+multiId(
+    
+    "https://img.freepik.com/free-photo/vertical-photo-attractive-young-woman-standing-office-holding-books-documents_146671-16538.jpg?ga=GA1.1.1410512896.1720190511&semt=ais_hybrid",
+
+    "Riya Raj",
+
+    "Bio",
+
+    "Student484849"
+
+)
 
 
-// multiId(
-//     "",
-//     "https://img.freepik.com/free-photo/portrait-female-college-student-holding-book-hand-smiling-camera_23-2148093193.jpg?ga=GA1.1.446802521.1715590962&semt=ais_hybrid",
-//     "Aditi Sharma",
-//     "Degital Marketing",
-//     "Student4846548"
-// );
+multiId(
+    
+)
+
 
